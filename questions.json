@@ -1,0 +1,14 @@
+{ "rentals": [{
+    "author": "James Franco",
+    "content": "How do I get rid of the evidence?",
+    "notes": "hypothetical question"
+  }, {
+    "author": "Seth Rogen",
+    "content": "Who is the best defense lawyer in LA?",
+    "notes": "preferably affordable, yet effective"
+  }, {
+    "author": "Snoop Dogg",
+    "content": "Where can I watch the video of SR and JF stealing that car and then setting it on fire?",
+    "notes": "idiots"
+  }]
+}
