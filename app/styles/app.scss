@@ -1,13 +1,41 @@
+$navyish-blue : #265299;
+$grey : #aaa;
 
-
+.container {
+  background-color: $grey;
+}
 .jumbotron {
   text-align: center;
+  background-color: $navyish-blue;
+  color: #fff;
+  border-radius: 20px !important;
+  margin-top: 10px !important;
 }
 
 .btn {
   width: 100%;
-  height: 3em;
+  height: 2.6em;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 1.2em;
 }
+
+.btn-default:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-trigger {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-trigger:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 
 ul {
   list-style: none;
@@ -25,24 +53,26 @@ a:hover {
 }
 
 .question-display {
-  background-color: rgba(150, 150, 150, 0.4);
+  background-color: $navyish-blue;
+  color: #fff;
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 200%;
   max-height: 300px;
-  border: 5px white solid;
+  border: 5px $grey solid;
   border-radius: 20px;
 }
 
 .question-column {
-  background-color: rgba(150, 150, 150, 0.4);
+  background-color: $navyish-blue;
+  color: #fff;
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 200%;
   max-height: 300px;
-  border: 5px white solid;
+  border: 5px $grey solid;
   border-radius: 20px;
 }
 
@@ -51,14 +81,14 @@ a:hover {
 }
 
 .answer-column {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: $navyish-blue;
   color: #fff;
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 200%;
   max-height: 300px;
-  border: 5px white solid;
+  border: 5px $grey solid;
   border-radius: 20px;
 }
 
@@ -72,4 +102,18 @@ a:hover {
 
 #content, #author, #notes {
   width: 100%;
+  border-radius: 20px;
+}
+
+#question-form-heading {
+  background-color: #000;
+  border-radius: 20px;
+  padding: 6%;
+  margin-top: 0px;
+}
+
+#question-form-heading:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
 }
