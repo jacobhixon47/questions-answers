@@ -1,5 +1,7 @@
 <li>
-  <h3>{{question.author}}</h3>
-  <h4>{{question.content}}</h4>
-  <p><em>Notes: {{question.notes}}</em></p>
+  {{#link-to 'question' question.id}}
+    <h3>{{question.author}}</h3>
+    <h4>{{question.content}}</h4>
+    <p><em>Notes: {{question.notes}}</em></p>
+  {{/link-to}}
 </li>
