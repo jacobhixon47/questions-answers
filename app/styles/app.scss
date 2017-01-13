@@ -50,6 +50,18 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.answer-column {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200%;
+  max-height: 300px;
+  border: 5px white solid;
+  border-radius: 20px;
+}
+
 #content {
   height: 100px;
 }
