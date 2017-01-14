@@ -1,0 +1,14 @@
+{{#if updateQuestionForm}}
+  <h4>Edit Question</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="notes">Edit Notes:</label><br>
+        {{textarea value=notes id="notes"}}
+      </div>
+      <button class="btn btn-success" {{action 'update' question}}>Update</button>
+    </form>
+  </div><br><br>
+{{else}}
+  <button class="btn btn-default" {{action 'updateQuestionForm'}}>Edit Question</button><br><br>
+{{/if}}
