@@ -1,7 +1,10 @@
-# questions-answers
+# The Answer
+
+#### By: _Jacob Hixon_
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+'The Answer' is a questions-answers board where users can post questions and other users can answer those questions.
 
 ## Prerequisites
 
@@ -39,10 +42,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,3 +49,20 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+This file is part of (The Answer).
+
+  (The Answer) is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  (The Answer) is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the (The Answer). If not, see <http://www.gnu.org/licenses/>.
+
+Copyright (c) 2017 **_Jacob Hixon_**
