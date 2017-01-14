@@ -1,21 +1,10 @@
 { "questions": [{
-    "author": "James Franco",
-    "content": "How do I get rid of the evidence?",
-    "notes": "hypothetical question"
-  }, {
-    "author": "Seth Rogen",
-    "content": "Who is the best defense lawyer in LA?",
-    "notes": "preferably affordable, yet effective"
-  }, {
-    "author": "Snoop Dogg",
-    "content": "Where can I watch the video of SR and JF stealing that car and then setting it on fire?",
-    "notes": "idiots"
+    "author": "Potential Epicodus Student #4200",
+    "content": "How cool is Epicodus on a scale from 1 to 10",
+    "notes": "Be honest"
   }],
-  "reviews": [{
-    "author": "Joey",
-    "content": "Google it"
-  }, {
-    "author": "John",
-    "content": "Be less awesome"
+  "answers": [{
+    "author": "Epicodus Alumni #147",
+    "content": "11"
   }]
 }
